@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.header button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0;
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 20px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.position-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.relative, .absolute {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.relative {
+    background-color: green;
+    position: relative;
+    margin: 20px;
+}
+
+.absolute {
+    background-color: red;
+    position: absolute;
+    margin: 20px;
+}
+
+.info {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.info-box {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    background-color: brown;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.css-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+}
